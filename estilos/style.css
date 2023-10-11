@@ -19,4 +19,31 @@ body, html{
   width: 100vw;
 } 
 
-main
+main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+section#login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+
+}
+
+section > div#imagem{
+  background: #5f2c82 url(../imagens/fundo.jpg) no-repeat;
+  background-size: cover;
+
+  height: 200px;
+
+}
+
